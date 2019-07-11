@@ -65,7 +65,7 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle style={{'color':'black'}}>
+        <BigTitle>
           Hello, <br /> I'm Alberto.
         </BigTitle>
         <Subtitle>I'm creating novice web pages for my porfolio so I can BTFO from my town.</Subtitle>
