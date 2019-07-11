@@ -46,6 +46,12 @@ const defaultConfig = require('tailwindcss/defaultConfig')();
 const colors = {
   transparent: 'transparent',
 
+  'ticoxxo-weak-blue':'#4287AE',
+  'ticoxxo-magenta':'#eb0c86',
+  'ticoxxo-lilac':'#8f0fba',
+  'ticoxxo-strong-blue':'#1802ab',
+  'ticoxxo-chillong-blue':'#05e6d7',
+  
   'blue-black': '#161719',
   'blue-grey': '#23262b',
 

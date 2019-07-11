@@ -36,7 +36,9 @@ const ProjectsWrapper = styled.div`
 const AboutHero = styled.div`
   ${tw`flex flex-col lg:flex-row items-center mt-8`};
 `
-
+const HeroAbout = styled.span`
+  ${tw`text-black pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+`
 const Avatar = styled.img`
   ${tw`rounded-full h-16 w-16 w-32 xl:w-48 shadow-lg h-auto`};
 `
@@ -44,6 +46,7 @@ const Avatar = styled.img`
 const AboutSub = styled.span`
   ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
 `
+
 
 const AboutDesc = styled.p`
   ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
@@ -62,7 +65,7 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
+        <BigTitle style={{'color':'black'}}>
           Hello, <br /> I'm Alberto.
         </BigTitle>
         <Subtitle>I'm creating novice web pages for my porfolio so I can BTFO from my town.</Subtitle>
@@ -73,28 +76,28 @@ const Index = () => (
           <ProjectCard
             title="Freiheit"
             link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             This project is my entry to Adobe's #ChallengeYourPerspective contest.
           </ProjectCard>
           <ProjectCard
             title="Harry Potter"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #4287AE 0%, #8f0fba 100%)"
           >
             I entered the DOCMA 2017 award with this Harry Potter inspired image.
           </ProjectCard>
           <ProjectCard
             title="Tomb Raider"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             Recreation of a Tomb Raider Wallpaper (Fan Art)
           </ProjectCard>
           <ProjectCard
             title="Eagle"
             link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             A fantasy image manipulation relocating the habitat of wild animals.
           </ProjectCard>
